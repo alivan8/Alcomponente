@@ -1,7 +1,7 @@
 {
-    "name": "caffeinated/alcomponente",
+    "name": "caffe/alcomponente",
     "description": "es un componente para administrar permisos",
-    "keywords": ["alcomponente", "roles", "permissions", "auth", "laravel", "caffeinated"],
+    "keywords": ["alcomponente", "roles", "permissions", "auth", "laravel", "caffe"],
     "authors": [
         {
             "name": "Al ivan",
