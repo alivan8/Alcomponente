@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Caffe\\Alcomponente\\ShinobiServiceProvider"
+                "Caffe\\Alcomponente\\AlcomponenteServiceProvider"
             ],
             "aliases": {
                 "Alcomponente": "Caffe\\Alcomponente\\Facades\\Alcomponente"

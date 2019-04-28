@@ -12,7 +12,7 @@ use Illuminate\Support\ServiceProvider;
 use Caffe\Alcomponente\Facades\Alcomponente;
 use Caffe\Alcomponente\Models\Permission;
 
-class ShinobiServiceProvider extends ServiceProvider
+class AlcomponenteServiceProvider extends ServiceProvider
 {
     /**
      * Boot the service provider.
