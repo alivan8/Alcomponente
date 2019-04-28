@@ -1,16 +1,16 @@
 <?php
 
-namespace Caffeinated\Alcomponente;
+namespace Caffe\Alcomponente;
 
 use Exception;
 use Illuminate\Support\Facades\Gate;
-use Caffeinated\Alcomponente\Models\Role;
+use Caffe\Alcomponente\Models\Role;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
-use Caffeinated\Alcomponente\Facades\Alcomponente;
-use Caffeinated\Alcomponente\Models\Permission;
+use Caffe\Alcomponente\Facades\Alcomponente;
+use Caffe\Alcomponente\Models\Permission;
 
 class ShinobiServiceProvider extends ServiceProvider
 {
@@ -43,7 +43,7 @@ class ShinobiServiceProvider extends ServiceProvider
         $this->app->singleton('alcomponente', function ($app) {
             $auth = $app->make('Illuminate\Contracts\Auth\Guard');
 
-            return new \Caffeinated\Alcomponente\Alcomponente($auth);
+            return new \Caffe\Alcomponente\Alcomponente($auth);
         });
     }
 

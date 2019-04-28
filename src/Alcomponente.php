@@ -1,10 +1,10 @@
 <?php
 
-namespace Caffeinated\Alcomponente;
+namespace Caffe\Alcomponente;
 
-use Caffeinated\Alcomponente\Tactics\AssignRoleTo;
-use Caffeinated\Alcomponente\Tactics\GivePermissionTo;
-use Caffeinated\Alcomponente\Tactics\RevokePermissionFrom;
+use Caffe\Alcomponente\Tactics\AssignRoleTo;
+use Caffe\Alcomponente\Tactics\GivePermissionTo;
+use Caffe\Alcomponente\Tactics\RevokePermissionFrom;
 
 class Alcomponente
 {
@@ -32,7 +32,7 @@ class Alcomponente
      * Assign roles to a user.
      * 
      * @param  string|array  $roles
-     * @return \Caffeinated\Alcomponente\Tactic\AssignRoleTo
+     * @return \Caffe\Alcomponente\Tactic\AssignRoleTo
      */
     public function assign($roles): AssignRoleTo
     {
@@ -43,7 +43,7 @@ class Alcomponente
      * Give permissions to a user or role
      * 
      * @param  string|array  $permissions
-     * @return \Caffeinated\Alcomponente\Tactic\GivePermissionTo
+     * @return \Caffe\Alcomponente\Tactic\GivePermissionTo
      */
     public function give($permissions): GivePermissionTo
     {
@@ -54,7 +54,7 @@ class Alcomponente
      * Revoke permissions from a user or role
      * 
      * @param  string|array  $permissions
-     * @return \Caffeinated\Alcomponente\Tactic\RevokePermissionFrom
+     * @return \Caffe\Alcomponente\Tactic\RevokePermissionFrom
      */
     public function revoke($permissions): RevokePermissionFrom
     {

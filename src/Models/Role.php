@@ -1,10 +1,10 @@
 <?php
 
-namespace Caffeinated\Alcomponente\Models;
+namespace Caffe\Alcomponente\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Caffeinated\Alcomponente\Concerns\HasPermissions;
-use Caffeinated\Alcomponente\Contracts\Role as RoleContract;
+use Caffe\Alcomponente\Concerns\HasPermissions;
+use Caffe\Alcomponente\Contracts\Role as RoleContract;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Role extends Model implements RoleContract

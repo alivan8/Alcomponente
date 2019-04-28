@@ -13,16 +13,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Caffeinated\\Alcomponente\\": "src/"
+            "Caffe\\Alcomponente\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Caffeinated\\Alcomponente\\ShinobiServiceProvider"
+                "Caffe\\Alcomponente\\ShinobiServiceProvider"
             ],
             "aliases": {
-                "Alcomponente": "Caffeinated\\Alcomponente\\Facades\\Alcomponente"
+                "Alcomponente": "Caffe\\Alcomponente\\Facades\\Alcomponente"
             }
         }
     },

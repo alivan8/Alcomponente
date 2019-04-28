@@ -1,10 +1,10 @@
 <?php
 
-namespace Caffeinated\Alcomponente\Models;
+namespace Caffe\Alcomponente\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Caffeinated\Alcomponente\Contracts\Permission as PermissionContract;
+use Caffe\Alcomponente\Contracts\Permission as PermissionContract;
 
 class Permission extends Model implements PermissionContract
 {

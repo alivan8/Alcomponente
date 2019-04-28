@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Alcomponente\Tactics;
+namespace Caffe\Alcomponente\Tactics;
 
 use Illuminate\Database\Eloquent\Model;
-use Caffeinated\Alcomponente\Facades\Alcomponente;
+use Caffe\Alcomponente\Facades\Alcomponente;
 
 class GivePermissionTo
 {

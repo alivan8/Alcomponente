@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Alcomponente\Middleware;
+namespace Caffe\Alcomponente\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

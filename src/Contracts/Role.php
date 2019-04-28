@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Alcomponente\Contracts;
+namespace Caffe\Alcomponente\Contracts;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 

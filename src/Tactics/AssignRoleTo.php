@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Alcomponente\Tactics;
+namespace Caffe\Alcomponente\Tactics;
 
 class AssignRoleTo
 {

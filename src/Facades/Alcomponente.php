@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Alcomponente\Facades;
+namespace Caffe\Alcomponente\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

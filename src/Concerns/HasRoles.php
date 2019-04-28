@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Alcomponente\Concerns;
+namespace Caffe\Alcomponente\Concerns;
 
-use Caffeinated\Alcomponente\Facades\Alcomponente;
+use Caffe\Alcomponente\Facades\Alcomponente;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 trait HasRoles

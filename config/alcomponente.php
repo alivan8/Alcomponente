@@ -13,8 +13,8 @@ return [
         | permissions to roles and users, and assigning roles to users.
         */
 
-        'role' => Caffeinated\Alcomponente\Models\Role::class,
-        'permission' => Caffeinated\Alcomponente\Models\Permission::class,
+        'role' => Caffe\Alcomponente\Models\Role::class,
+        'permission' => Caffe\Alcomponente\Models\Permission::class,
 
     ],
 
