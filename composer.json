@@ -1,0 +1,30 @@
+{
+    "name": "caffeinated/alcomponente",
+    "description": "es un componente para administrar permisos",
+    "keywords": ["alcomponente", "roles", "permissions", "auth", "laravel", "caffeinated"],
+    "authors": [
+        {
+            "name": "Al ivan",
+            "email": "calle.coymbra@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.7.*|5.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Caffeinated\\Alcomponente\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Caffeinated\\Alcomponente\\ShinobiServiceProvider"
+            ],
+            "aliases": {
+                "Alcomponente": "Caffeinated\\Alcomponente\\Facades\\Alcomponente"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
