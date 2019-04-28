@@ -1,6 +1,6 @@
 {
     "name": "caffe/alcomponente",
-    "description": "es un componente para administrar permisos",
+    "description": "es un componente para administrar permisos de laravel",
     "keywords": ["alcomponente", "roles", "permissions", "auth", "laravel", "caffe"],
     "authors": [
         {
