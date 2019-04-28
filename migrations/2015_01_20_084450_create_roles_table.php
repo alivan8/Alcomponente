@@ -1,62 +1,19 @@
-Ñ:::::::::::::::::::::::::::::::::::::::::::::::::::::......··
+<?php
 
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<56 function up()bvvvvvvv                             vijkkkkkkkkkkkk
-
+class CreateRolesTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
     {
         Schema::create('roles', function (Blueprint $table) {
-            $table->increments('id');
+            $table->bigIncrements('id');
             $table->string('name')->unique();
             $table->string('slug')->unique();
             $table->text('description')->nullable();
@@ -69,25 +26,7 @@
      *
      * @return void
      */
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <56 function down()
+    public function down()
     {
         Schema::drop('roles');
     }
